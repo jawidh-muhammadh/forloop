@@ -73,10 +73,35 @@
     width: 100%;
   }
 
+  .downloadimagesmall {
+    background-image: url("/images/download.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center;
+
+    width: 100%;
+  }
+
   .vertiline {
     border-left: 2px solid white;
     height: 33px;
   }
+
+  .size {
+    width: 300vw;
+  }
+
+  .imagee {
+    background-image: url("/images/firstbenefit.png");
+    background-size: contain;
+  }
+
+  /* .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: normal;
+  } */
 }
 
 /* html,
