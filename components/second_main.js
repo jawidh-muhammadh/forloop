@@ -7,7 +7,7 @@ const Second_main = () => {
         <div className="w-8/12 ">
           <h1 className="mt-6 text-6xl text-black font-MuktaBold">
             {" "}
-            Why worry when Forloop can write almost anything for you?{" "}
+            Whyy worry when Forloop can write almost anything for you?{" "}
           </h1>
           <h1 className="mt-4 font-Productsansregular text-[#39395f] text-2xl ">
             {" "}

@@ -24,7 +24,7 @@ const Headertwo = () => {
         </h1>
 
         <button className="bg-[#FB3640]      md:flex hidden hover:bg-[#d32b33] sm:mt-5  hover:transition duration-300 ease-in-out delay-150 hover:scale-105         px-12 sm:mr-2 font-body rounded-full py-3 md:mt-8 text-white font-semibold">
-          Get Started
+          Get Startedd
         </button>
       </div>
       <div className="mr-52 ">
