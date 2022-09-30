@@ -8,7 +8,7 @@ const Navbarbw = () => {
       <div className="items-center  dark:bg-[#121418] w-auto text-lg text-[#7e7878] dark:text-[#f1ebeb]    md:flex font-body">
         {/* text-black */}
         {/* dark:bg-[#121418]  */}
-        <div className="hidden w-4/12 mt-6 dark:md:hidden md:flex pl-11">
+        <div className="hidden  mt-6 dark:md:hidden md:flex pl-11">
           <img
             className="w-20 h-20 cursor-pointer "
             src="/images/logo_black.png"
@@ -38,8 +38,8 @@ const Navbarbw = () => {
           </ul>
         </div> */}
 
-        <div className="hidden w-8/12 mt-3 ml-auto mr-5 md:flex place-content-end ">
-          <ul className="items-center md:flex">
+        <div className="  hidden mt-3 ml-auto mr-5 md:flex place-content-end ">
+          <ul className=" items-center md:flex">
             <li className="cursor-pointer font-Productsansregular mx-7">
               Blog
             </li>
