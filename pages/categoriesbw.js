@@ -1,12 +1,23 @@
 import React from "react";
 import HorizontalScroll from "react-scroll-horizontal";
 
+
+
+
+
 const Categoriesbw = () => {
-  const child = { width: `30em`, height: `100%` };
-  const parent = { width: `60em`, height: `100%` };
+
+
+
+  // const child = { width: `30em`, height: `100%` };
+  // const parent = { width: `60em`, height: `100%` };
+
+
+
+
   return (
     <>
-      <div className="hidden pt-6 sm:block lg:pt-56 xl:pt-6 ">
+      <div className="hidden 2xl:pt-44 md:pt-20 sm:pt-24     pt-6 sm:block lg:pt-24 xl:pt-36 ">
         {/* bg-[#F2F2F2]  */}
         {/* #f3f3ed nice background  */}
         {/* categories 3 on right 3 on left  */}
@@ -27,7 +38,7 @@ const Categoriesbw = () => {
           {/* left view  */}
           <div className="flex flex-col">
             <div className="p-10 border-2 dark:border-[#17181a]   ">
-              <img className="mx-auto w-44" src="/images/hobby.png" />
+              <img className="mx-auto w-44" src="/images/E_commerce.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
                 Ecommerce & Social Media
@@ -41,30 +52,26 @@ const Categoriesbw = () => {
             </div>
 
             <div className="p-10 border-2 dark:border-[#17181a]  ">
-              <img className="mx-auto w-44" src="/images/hobby.png" />
+              <img className="mx-auto w-44" src="/images/Teachers_and_students.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
-                Ecommerce & Social Media
+                Teachers and Students
               </h1>
               <h1 className="mt-2 text-center dark:text-white md:w-64 font-Productsansregular ">
                 {" "}
-                Everything you need to grow your business online from marketing,
-                selling, branding, customer support, dealing with reviews and
-                much more
+                Make your education life simpler in studying, exam preparation, project submission, researching and much more
               </h1>
             </div>
 
             <div className="p-10 border-2 dark:border-[#17181a] ">
-              <img className="mx-auto w-44" src="/images/hobby.png" />
+              <img className="mx-auto w-44" src="/images/blog.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
-                Ecommerce & Social Media
+                Blogging & Publishing
               </h1>
               <h1 className="mt-2 text-center dark:text-white md:w-64 font-Productsansregular ">
                 {" "}
-                Everything you need to grow your business online from marketing,
-                selling, branding, customer support, dealing with reviews and
-                much more
+                Make your blog stand out with proper research content, grammar checks, optimization for search engines and much more
               </h1>
             </div>
           </div>
@@ -72,44 +79,40 @@ const Categoriesbw = () => {
           {/* right view  */}
           <div className="flex flex-col sm:-mt-20">
             <div className="p-10 border-2  dark:border-[#17181a] ">
-              <img className="mx-auto w-44" src="/images/hobby.png" />
+              <img className="mx-auto w-44" src="/images/communication.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
-                Ecommerce & Social Media
+                Media & Communication
               </h1>
               <h1 className="mt-2 text-center dark:text-white md:w-64 font-Productsansregular ">
                 {" "}
-                Everything you need to grow your business online from marketing,
-                selling, branding, customer support, dealing with reviews and
-                much more
+                Get succeeded in digital media with unique idea generation, content creation,trending concepts, click baits and much more
+
               </h1>
             </div>
 
             <div className="p-10 border-2 dark:border-[#17181a]">
-              <img className="mx-auto w-44" src="/images/hobby.png" />
+              <img className="mx-auto w-44" src="/images/Office.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
-                Ecommerce & Social Media
+                Office & Employment
               </h1>
               <h1 className="mt-2 text-center md:w-64 dark:text-white font-Productsansregular ">
                 {" "}
-                Everything you need to grow your business online from marketing,
-                selling, branding, customer support, dealing with reviews and
-                much more
+                Got tired of repetitive tedious tasks in your office, Here comes your solution to writing letters, emails, job descriptions, creating meeting agendas and much more
+
               </h1>
             </div>
 
             <div className="p-10 border-2  dark:border-[#17181a]">
-              <img className="mx-auto w-44" src="/images/hobby.png" />
+              <img className="mx-auto w-44" src="/images/Hobbies.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
-                Ecommerce & Social Media
+                Hobby & Interest
               </h1>
               <h1 className="mt-2 text-center dark:text-white md:w-64 font-Productsansregular ">
                 {" "}
-                Everything you need to grow your business online from marketing,
-                selling, branding, customer support, dealing with reviews and
-                much more
+                Spend your leisure time effectively writing a story, playing IQ games, solving a case, motivating yourself and much more
               </h1>
             </div>
           </div>
@@ -118,7 +121,7 @@ const Categoriesbw = () => {
 
       {/* Below Sm devices  */}
 
-      <div className="block pt-6 sm:hidden">
+      <div className=" block pt-20 sm:hidden">
         <h1 className=" mx-6   text-4xl  text-[#8A8B91] dark:text-white text-left font-Productsansbold ">
           {" "}
           Forloop is for,{" "}

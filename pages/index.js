@@ -50,10 +50,13 @@ export default function Home() {
 
       {/* <Secondbw />  */}
 
+     
+
       <Categoriesbw />
       <div className="overflow-auto ">
         <Categoriescard />
       </div>
+     
 
       <Yesno />
       <Benefitonebw />

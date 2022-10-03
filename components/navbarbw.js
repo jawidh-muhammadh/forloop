@@ -48,7 +48,7 @@ const Navbarbw = () => {
               Pricing
             </li>
             {/* font-KarlaRegular  */}
-            <button className="bg-[#1B1212] dark:bg-white font-Productsansregular text-lg    md:flex hidden dark:hover:bg-[#eee8e8]  hover:bg-[#1b1919]   hover:transition duration-300 ease-in-out delay-150 hover:scale-105         px-12 sm:mr-2 font-body rounded-full py-3 dark:text-black  text-white">
+            <button disabled={true} className="bg-[#1B1212] dark:bg-white font-Productsansregular text-lg    md:flex hidden dark:hover:bg-[#eee8e8]  hover:bg-[#1b1919]   hover:transition duration-300 ease-in-out delay-150 hover:scale-105         px-12 sm:mr-2 font-body rounded-full py-3 dark:text-black  text-white">
               Get Started
             </button>
 

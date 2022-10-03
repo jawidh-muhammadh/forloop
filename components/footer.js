@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Footer = () => {
+
+  const [input, setinput] = useState("")
   return (
     <div className="bg-[#1B1212] ">
       {/* #221F14 previous color for footer  */}
@@ -31,11 +33,14 @@ const Footer = () => {
 
           <div class="flex relative mt-3  w-80  border p-2 border-[#F2F1EB] bg-white">
             <input
+            value={input}
+            onChange={ (e) => setinput(e.target.value)  }
+        
               type="text"
               class=" italic  text-black w-48 h-5 bg-white   p-3  z-0  focus:outline-none  font-thin text-sm    "
               placeholder="Email Address"
             />
-            <button className=" bg-[#676767] absolute py-[9px] -mt-[9px]  -mr-[1px]        text-white right-0    px-5">
+            <button onClick={ () => setinput("") } className=" bg-[#676767] absolute py-[9px] -mt-[9px]  -mr-[1px]        text-white right-0    px-5">
               {" "}
               Submit
             </button>
@@ -49,25 +54,25 @@ const Footer = () => {
           </h1>
           <a
             className="font-Productsansregular mb-1 md:mb-1 sm:text-lg text-[#B8BBAF]"
-            href="#"
+            
           >
             Support
           </a>
           <a
             className=" font-Productsansregular mb-1 md:mb-1 sm:text-lg text-[#B8BBAF] "
-            href="#"
+          
           >
             Privacy Policy
           </a>
           <a
             className=" font-Productsansregular mb-1 md:mb-1 sm:text-lg text-[#B8BBAF] "
-            href="#"
+           
           >
             Terms Of Service
           </a>
           <a
             className="  font-Productsansregular mb-1 md:mb-1 sm:text-lg text-[#B8BBAF] "
-            href="#"
+          
           >
             Changelog
           </a>
@@ -80,19 +85,19 @@ const Footer = () => {
           </h1>
           <a
             className="  font-Productsansregular mb-1 md:mb-1 sm:text-lg text-[#B8BBAF] "
-            href="#"
+          
           >
             Knowledge Center
           </a>
           <a
             className="  font-Productsansregular mb-1 md:mb-1 sm:text-lg text-[#B8BBAF] "
-            href="#"
+           
           >
             Guidelines
           </a>
           <a
             className="   font-Productsansregular mb-1 md:mb-1 sm:text-lg text-[#B8BBAF] "
-            href="#"
+          
           >
             Press
           </a>
@@ -105,19 +110,19 @@ const Footer = () => {
         {/* down  */}
         <div className="flex">
           <div className="flex ml-3 sm:ml-0">
-            <a href="#">
+            <a>
               <img
                 className="object-cover w-6 h-6 mx-3 transition duration-300 ease-in-out delay-150 lg:w-8 lg:h-8 hover:scale-125 sm:w-6 sm:h-6 md:w-6 md:h-6 "
                 src="images/Twitter.png"
               />
             </a>{" "}
-            <a href="#">
+            <a >
               <img
                 className="object-cover w-6 h-6 mx-3 transition duration-300 ease-in-out delay-150 lg:w-8 lg:h-8 hover:scale-125 sm:w-6 sm:h-6 md:w-6 md:h-6 "
                 src="images/Instagram.png"
               />
             </a>
-            <a href="#">
+            <a >
               <img
                 className="object-cover w-6 h-6 mx-3 transition duration-300 ease-in-out delay-150 lg:w-8 lg:h-8 hover:scale-125 sm:w-6 sm:h-6 md:w-6 md:h-6 "
                 src="images/Facebook.png"
@@ -129,12 +134,12 @@ const Footer = () => {
 
           <div className="flex items-center pb-6 ml-7 sm:pb-0 2xl:mx-36 sm:justify-between">
             <div className="px-0 sm:px-0">
-              <a href="#">
+              <a>
                 <img className="w-6" src="images/kim.png" />
               </a>
             </div>
             <div className="px-4 ml-2 sm:px-4">
-              <a href="#">
+              <a >
                 <img className="w-8 " src="images/appstore_iconn.png" />
               </a>
             </div>
@@ -144,13 +149,13 @@ const Footer = () => {
         <div className="flex mt-7 sm:mt-0">
           <a
             className="  font-Productsansregular mx-5 mb-1 md:mb-1 sm:text-lg text-[#B8BBAF] "
-            href="#"
+          
           >
             Guidelines
           </a>
           <a
             className="   font-Productsansregular mx-5 mb-1 md:mb-1 sm:text-lg text-[#B8BBAF] "
-            href="#"
+           
           >
             Press
           </a>

@@ -5,7 +5,7 @@ const Benefitonebw = () => {
     <>
       <div className="sm:flex hidden flex-col pb-12 mt-24 md:flex-row md:mx-5 lg:mx-5 xl:mx-16 2xl:mx-20 sm:mt-0 sm:pt-36">
         <div className=" w-[250px] md:mx-0   mx-auto md:w-6/12">
-          <img className="" src="/images/benefit_one.png" />
+          <img className="" src="/images/first_benefit.png" />
         </div>
         <div className="-mt-2 md:w-6/12 sm:mt-3 md:mt-10 ">
           <h1 className=" mx-6 2xl:mx-32 lg:mx-[50px]  sm:mx-0 md:px-[55px]   md:text-left text-center mt-8 text-[#acaaad] text-4xl sm:text-5xl md:text-6xl  lg:text-7xl xl:text-7xl 2xl:text-8xl font-Productsansbold">
