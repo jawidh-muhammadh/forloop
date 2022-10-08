@@ -5,27 +5,27 @@ const Benefittwobw = () => {
     <>
       <div className="justify-between hidden mt-20 sm:flex">
         <div className=" w-6/12 sm:h-[450px]  md:h-[600px] dark:bg-[#23262E]  bg-[#f3eef3]">
-          <h1 className=" mt-11 dark:text-white   sm:text-[40px]  md:mt-24 lg:mt-16 xl:mt-11 ml-[50px] md:leading-[60px]  mx-6 leading-[50px] xl:leading-[70px] 2xl:leading-[80px] md:text-[50px] lg:leading-[70px] lg:text-[60px]  xl:text-[75px] font-Productsansbold text-[#707070]">
+          <h1 className=" mt-11 dark:text-[#E2E2E2]   sm:text-[40px]  md:mt-24 lg:mt-16 xl:mt-11 ml-[50px] md:leading-[60px]  mx-6 leading-[50px] xl:leading-[70px] 2xl:leading-[80px] md:text-[50px] lg:leading-[70px] lg:text-[60px]  xl:text-[75px] font-Productsansbold text-[#707070]">
             {" "}
             You can now
           </h1>
-          <h1 className=" dark:text-white    mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[70px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]  xl:text-[75px] font-Productsansbold text-[#707070]">
+          <h1 className=" dark:text-[#E2E2E2]   mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[70px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]  xl:text-[75px] font-Productsansbold text-[#707070]">
             {" "}
             explain
           </h1>
-          <h1 className=" dark:text-white    mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[70px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]  xl:text-[75px] font-Productsansbold text-[#707070]">
+          <h1 className=" dark:text-[#E2E2E2]    mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[70px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]  xl:text-[75px] font-Productsansbold text-[#707070]">
             {" "}
             what's in your
           </h1>
-          <h1 className=" dark:text-white    mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[70px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]  xl:text-[75px] font-Productsansbold text-[#707070]">
+          <h1 className=" dark:text-[#E2E2E2]    mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[70px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]  xl:text-[75px] font-Productsansbold text-[#707070]">
             {" "}
             mind even
           </h1>
-          <h1 className=" dark:text-white   mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[70px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]   xl:text-[75px] font-Productsansbold text-[#707070]">
+          <h1 className=" dark:text-[#E2E2E2]  mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[70px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]   xl:text-[75px] font-Productsansbold text-[#707070]">
             {" "}
             using
           </h1>
-          <h1 className=" dark:text-white    mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[85px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]  xl:text-[75px] font-Productsansbold text-[#707070]">
+          <h1 className=" dark:text-[#E2E2E2]   mx-6 ml-[50px] sm:text-[40px] leading-[50px] md:leading-[60px] lg:leading-[85px] md:text-[50px] lg:text-[60px] 2xl:leading-[80px]  xl:text-[75px] font-Productsansbold text-[#707070]">
             {" "}
             Broken English
           </h1>
@@ -39,10 +39,12 @@ const Benefittwobw = () => {
         <div className="w-6/12 ">
           <img
             className=" mt-12 ml-12 w-[500px]"
-            src="/images/benefit_two.png"
+            src="/images/Broken_English.png"
           />
         </div>
       </div>
+
+     
 
       <div className="relative flex justify-between mt-20 sm:hidden ">
         <div className=" w-full h-[350px] dark:bg-[#23262E]   bg-[#f3eef3]">

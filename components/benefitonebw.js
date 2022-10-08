@@ -8,7 +8,7 @@ const Benefitonebw = () => {
           <img className="" src="/images/first_benefit.png" />
         </div>
         <div className="-mt-2 md:w-6/12 sm:mt-3 md:mt-10 ">
-          <h1 className=" mx-6 2xl:mx-32 lg:mx-[50px]  sm:mx-0 md:px-[55px]   md:text-left text-center mt-8 text-[#acaaad] text-4xl sm:text-5xl md:text-6xl  lg:text-7xl xl:text-7xl 2xl:text-8xl font-Productsansbold">
+          <h1 className=" mx-6 2xl:mx-32 lg:mx-[50px]  sm:mx-0 md:px-[55px]   md:text-left text-center mt-8  text-[#acaaad] text-4xl sm:text-5xl md:text-6xl  lg:text-7xl xl:text-7xl 2xl:text-8xl font-Productsansbold">
             {" "}
             Forloop can write almost anything for you.{" "}
           </h1>
@@ -31,7 +31,7 @@ const Benefitonebw = () => {
       {/* Mobile view below  */}
 
       <div className=" sm:hidden flex imagee">
-        <h1 className=" mx-7 py-12 2xl:mx-32 lg:mx-[50px]     md:text-left text-center mt-8 text-[#524f53] text-5xl  font-Productsansbold">
+        <h1 className=" mx-7 py-12 2xl:mx-32 lg:mx-[50px] dark:text-[#ECECEC]     md:text-left text-center mt-8 text-[#524f53] text-5xl  font-Productsansbold">
           {" "}
           Forloop can write almost anything for you.{" "}
         </h1>

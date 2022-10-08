@@ -3,11 +3,12 @@ import React from "react";
 const Yesno = () => {
   return (
     <div className="flex flex-col md:flex-row">
-      <div className=" md:w-6/12 bg-[#FBF6FA] dark:bg-[#23262E]  pt-10 pb-16 sm:pt-24 sm:pb-36 ">
+      {/* bg-[#FBF6FA] yes backround color ea rlier     */}
+      <div className=" md:w-6/12    bg-[#F9F9F9] dark:bg-[#23262E]  pt-10 pb-16 sm:pt-24 sm:pb-36 ">
         <h1 className=" text-[100px] sm:text-[150px] dark:text-white  font-Productsansbold text-center  ">
           {" "}
           Yes,{" "}
-        </h1>
+        </h1>   
         <h1 className="mx-3 -mt-3 text-3xl text-center dark:text-white sm:-mt-6 2xl:mx-64 2xl:-mt-0 sm:text-5xl font-Productsansregular lg:mx-28 md:mx-4 sm:mx-28">
           you can now get anything written in seconds
         </h1>

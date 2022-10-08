@@ -121,12 +121,12 @@ const Categoriesbw = () => {
 
       {/* Below Sm devices  */}
 
-      <div className=" block pt-20 sm:hidden">
+      <div className=" block bg-[#F5F5F7] dark:bg-[#111111] pt-20 sm:hidden">
         <h1 className=" mx-6   text-4xl  text-[#8A8B91] dark:text-white text-left font-Productsansbold ">
           {" "}
           Forloop is for,{" "}
         </h1>
-        <h1 className="mx-6 mt-4 text-lg tracking-wide dark:text-white font-Productsansregular ">
+        <h1 className="mx-6 mt-4 text-lg tracking-wide dark:text-[#D6D4D4] font-Productsansregular ">
           {" "}
           people who love to see a change in how something can be written.Ever
           thought how an Artificial Intelligence product could write contents
