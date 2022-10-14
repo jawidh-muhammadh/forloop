@@ -130,7 +130,8 @@ const Categoriescard = () => {
     <header onScroll={scroll} ref={scrollCheck}   id="containere" className=" grid grid-cols-6  relative gap-x-48 dark:bg-[#111111]    bg-[#F5F5F7] overflow-x-scroll scrollbar-hide over scroll scroll-smooth pt-8 pb-10 sm:hidden">
      
       <div className="px-3 py-5 card shadow border-none dark:bg-[#000000]   bg-[#FFFFFF] rounded-xl  w-[176px] border-2  h-[322px] ml-6  mt-4 mb-8 dark:border-[#17181a]   ">
-        <img className=" text-left w-[69px]" src="/images/hobby.png" />
+        <img className=" dark:hidden text-left w-[69px]" src="/images/icons/E-commerce-light.png" />
+        <img className=" dark:block hidden text-left w-[69px]" src="/images/icons/E-commerce-dark.png" />
         <h1 className=" text-[12px] mt-4  text-left dark:text-[#EEEEEE] font-Productsansbold ">
           {" "}
           Ecommerce & Social Media
@@ -144,7 +145,8 @@ const Categoriescard = () => {
       
       </div>
       <div className="px-3 py-5 card shadow border-none dark:bg-[#000000]   bg-[#FFFFFF] rounded-xl  w-[176px] border-2  h-[322px] ml-6  mt-4 mb-8 dark:border-[#17181a]   ">
-        <img className=" text-left w-[69px]" src="/images/hobby.png" />
+        <img className=" dark:hidden text-left w-[69px]" src="/images/icons/teacher-light.png" />
+        <img className=" dark:block hidden text-left w-[69px]" src="/images/icons/teacher-dark.png" />
         <h1 className=" text-[12px] mt-4  text-left dark:text-[#EEEEEE] font-Productsansbold ">
           {" "}
           Teachers & Students
@@ -157,7 +159,8 @@ const Categoriescard = () => {
       </div>
      
       <div className="px-3 py-5 card shadow border-none dark:bg-[#000000]   bg-[#FFFFFF] rounded-xl  w-[176px] border-2  h-[322px] ml-6  mt-4 mb-8 dark:border-[#17181a]   ">
-        <img className=" text-left w-[69px]" src="/images/hobby.png" />
+        <img className=" dark:hidden text-left w-[69px]" src="/images/icons/blog-Light.png" />
+        <img className=" dark:block hidden text-left w-[69px]" src="/images/icons/blog-dark.png" />
         <h1 className=" text-[12px] mt-4  text-left dark:text-[#EEEEEE] font-Productsansbold ">
           {" "}
           Blogging & Publishing
@@ -170,7 +173,7 @@ const Categoriescard = () => {
       </div>
      
       <div className="px-3 py-5 card shadow border-none dark:bg-[#000000]   bg-[#FFFFFF] rounded-xl  w-[176px] border-2  h-[322px] ml-6  mt-4 mb-8 dark:border-[#17181a]   ">
-        <img className=" text-left w-[69px]" src="/images/hobby.png" />
+        <img className=" text-left w-[69px]" src="/images/icons/mcld.png" />
         <h1 className=" text-[12px] mt-4  text-left dark:text-[#EEEEEE] font-Productsansbold ">
           {" "}
           Media & Communication
@@ -183,7 +186,8 @@ const Categoriescard = () => {
       </div>
      
       <div className="px-3 py-5 card shadow border-none dark:bg-[#000000]   bg-[#FFFFFF] rounded-xl  w-[176px] border-2  h-[322px] ml-6  mt-4 mb-8 dark:border-[#17181a]   ">
-        <img className=" text-left w-[69px]" src="/images/hobby.png" />
+        <img className=" dark:hidden text-left w-[69px]" src="/images/icons/Office-light.png" />
+        <img className=" dark:block hidden text-left w-[69px]" src="/images/icons/office-dark.png" />
         <h1 className=" text-[12px] mt-4  text-left dark:text-[#EEEEEE] font-Productsansbold ">
           {" "}
           Office & Employment
@@ -196,7 +200,7 @@ const Categoriescard = () => {
       </div>
      
       <div className="px-3 py-5 card shadow border-none dark:bg-[#000000]   bg-[#FFFFFF] rounded-xl  w-[176px] border-2  h-[322px] ml-6  mt-4 mb-8 dark:border-[#17181a]   ">
-        <img className=" text-left w-[69px]" src="/images/hobby.png" />
+        <img className=" text-left w-[69px]" src="/images/icons/Hobbies-L&D.png" />
         <h1 className=" text-[12px] mt-4  text-left dark:text-[#EEEEEE] font-Productsansbold ">
           {" "}
           Hobby & Interest

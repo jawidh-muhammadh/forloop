@@ -7,9 +7,9 @@ const Footer = () => {
     <div className="bg-[#1B1212] ">
       {/* #221F14 previous color for footer  */}
       <div className="bg-[#1B1212] pb-6 sm:flex w-full sm:px-12 lg:px-36 lg:pl-36 pt-12 justify-evenly  ">
-        <div className="mx-6 sm:w-4/12 lg:mx-0">
+        <div className="mx-6 2xl:pl-36 sm:w-4/12 lg:mx-0">
           <img
-            className="object-contain h-10 2xl:pl-36 lg:h-12 lg:mt-4 md:mt-16 sm:mt-16 "
+            className="object-contain h-10  lg:h-12 lg:mt-4 md:mt-16 sm:mt-16 "
             src="images/text_logo.png"
           />
 
@@ -26,12 +26,12 @@ const Footer = () => {
             </div>
           </div> */}
 
-          <h1 className="text-3xl text-white sm:text-4xl mt-7 font-Productsansbold">
+          <h1 className="text-3xl text-white  md:text-4xl mt-7 font-Productsansbold">
             {" "}
             Get in touch
           </h1>
 
-          <div class="flex relative mt-3  w-80  border p-2 border-[#F2F1EB] bg-white">
+          <div class="flex relative mt-3 w-64 md:w-80  border p-2 border-[#F2F1EB] bg-white">
             <input
             value={input}
             onChange={ (e) => setinput(e.target.value)  }

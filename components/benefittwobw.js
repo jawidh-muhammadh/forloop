@@ -38,8 +38,12 @@ const Benefittwobw = () => {
         </div>
         <div className="w-6/12 ">
           <img
-            className=" mt-12 ml-12 w-[500px]"
+            className=" dark:hidden mt-12 mx-auto 2xl:w-[600px] w-[500px]"
             src="/images/Broken_English.png"
+          />
+          <img
+            className="dark:block hidden mt-12 mx-auto 2xl:w-[600px] w-[500px]"
+            src="/images/dark_Categories/second_benefit_dark_version.png"
           />
         </div>
       </div>
