@@ -120,12 +120,13 @@ const saveuserinfo = async  () => {
             <input
             // value={input}
             // onChange={ (e) => setinput(e.target.value)  }
+            value={userinfotype} onChange={addinputvalue}
         
               type="text"
               class="     w-48 h-5  bg-[#ECECEC]  outline-transparent  p-3  z-0  focus:outline-none  font-thin text-sm    "
               placeholder="Your Email or Phone number"
             />
-            <button  className="  rounded-full bg-[#080808] absolute py-[10px] -mt-[8px]  -mr-[1px] text-[14px]         text-white right-0    px-5">
+            <button disabled={!userinfotype  }   onClick={saveuserinfo}  className="  rounded-full bg-[#080808] absolute py-[10px] -mt-[8px]  -mr-[1px] text-[14px]         text-white right-0    px-5">
               {" "}
               Submit
             </button>
@@ -169,23 +170,23 @@ const saveuserinfo = async  () => {
      </div> */}
 
 
-     <h1 className={`text-center  ${showsubscribedone ? "block" : "hidden" }  text-2xl z-50 pt-4 font-Productsansregular text-green-900`}> Thank You. We will notify you our launch day soon </h1>
+     <h1 className={`text-center sm:mx-0 mx-5   ${showsubscribedone ? "block" : "hidden" }  text-2xl z-50 pt-7 sm:pt-4 font-Productsansregular text-green-900`}> Thank You. We will notify you our launch day soon </h1>
    
     </div>
 
     {/* large device  */}
-    {/* <div className='absolute sm:bottom-0 sm:block hidden   '>
+    <div className='absolute sm:bottom-0 sm:block hidden   '>
      <video autoPlay loop muted className=' w-48 sm:w-96'>
       <source src="/video.mp4" type="video/mp4" />
      </video>
      </div>
 
         {/* small device  */}
-     {/* <div className='absolute sm:hidden   left-1/2 bottom-0 transform -translate-x-1/2    '>
+     { <div className='absolute sm:hidden   left-1/2 bottom-0 transform -translate-x-1/2    '>
      <video autoPlay loop muted className=' w-48 sm:w-96'>
       <source src="/video.mp4" type="video/mp4" />
      </video>
-    //  </div> */}
+      </div> }
     </>
   )
 }
