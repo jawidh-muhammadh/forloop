@@ -44,7 +44,7 @@ const Try_a_demo = () => {
 
      <div  className='sm:flex hidden  mt-10 justify-center'>
          
-     <div  onClick={() => router.push('/Email_demo')} className=' mx-8 '> 
+     <div  onClick={() => router.push('/paragraph_sum_demo')} className=' mx-8 '> 
       <div className=' border cursor-pointer hover:shadowdemocard border-[#D1D1D1] rounded-[16px]  px-8 pt-4'> 
       <img className=" w-[152px]  " src="/images/saturday/prepare_tutes.png" />
       
@@ -52,7 +52,7 @@ const Try_a_demo = () => {
       <h1 className='text-center mt-2'>  Summary Of Paragraph </h1>
       </div>
 
-      <div  onClick={() => router.push('/write_letter_demo')} className=' mx-8'> 
+      <div  onClick={() => router.push('/mindmap_map_demo')} className=' mx-8'> 
       <div className=' border cursor-pointer hover:shadowdemocard border-[#D1D1D1] rounded-[16px] px-8 pt-4'> 
       <img className=" w-[152px]  " src="/images/saturday/Mind_maping.png" />
       
@@ -67,7 +67,7 @@ const Try_a_demo = () => {
 
      {/* small device  */}
      <div className='flex sm:hidden mt-5 justify-center'>
-        <div  onClick={() => router.push('/Email_demo')} className=' mx-8 '> 
+        <div  onClick={() => router.push('/Email_demo')} className=' mx-2 '> 
       <div className=' border cursor-pointer hover:shadowdemocard border-[#D1D1D1] rounded-[16px]  px-3 pt-2'> 
       <img className=" w-[112px]  " src="/images/saturday/Mailing.png" />
       
@@ -75,7 +75,7 @@ const Try_a_demo = () => {
       <h1 className='text-center mt-2'>  Write an Email </h1>
       </div>
 
-      <div  onClick={() => router.push('/write_letter_demo')} className=' mx-8'> 
+      <div  onClick={() => router.push('/write_letter_demo')} className=' mx-2'> 
       <div className=' border cursor-pointer hover:shadowdemocard border-[#D1D1D1] rounded-[16px] px-3 pt-2'> 
       <img className=" w-[112px]  " src="/images/saturday/write_a_letter.png" />
       
@@ -90,7 +90,7 @@ const Try_a_demo = () => {
 
 
      <div className='flex sm:hidden mt-10 justify-center'>
-        <div  onClick={() => router.push('/paragraph_sum_demo')} className=' mx-8'> 
+        <div  onClick={() => router.push('/paragraph_sum_demo')} className=' mx-2'> 
       <div className=' border cursor-pointer hover:shadowdemocard border-[#D1D1D1] rounded-[16px]  px-3 pt-2'> 
       <img className=" w-[112px] " src="/images/saturday/prepare_tutes.png" />
       
@@ -98,7 +98,7 @@ const Try_a_demo = () => {
       <h1 className='text-center text-md mt-2'>  Summarize  </h1>
       </div>
 
-      <div  onClick={() => router.push('/mindmap_map_demo')} className=' mx-8'> 
+      <div  onClick={() => router.push('/mindmap_map_demo')} className=' mx-2'> 
       <div className=' border cursor-pointer hover:shadowdemocard border-[#D1D1D1] rounded-[16px]  px-3 pt-2'> 
       <img className=" w-[112px]  " src="/images/saturday/Mind_maping.png" />
       
@@ -110,10 +110,10 @@ const Try_a_demo = () => {
 
      </div>
       
-      <div className='flex sm:hidden mt-10  items-center'> 
-      <div  onClick={() => router.push('/paragraph_sum_demo')} className=' mx-auto'> 
+      <div className=' sm:hidden mt-10 w-[45%] mx-auto '> 
+      <div  onClick={() => router.push('/write_story_demo')} className=' mx-2 '> 
       <div className=' border cursor-pointer hover:shadowdemocard border-[#D1D1D1] rounded-[16px]  px-3 pt-2'> 
-      <img className=" w-[112px] " src="/images/saturday/Write_a_story.png" />
+      <img className=" w-[100px] mx-auto " src="/images/saturday/Write_a_story.png" />
       
       </div>
       <h1 className='text-center text-md mt-2'>  Write Story  </h1>

@@ -27,8 +27,44 @@ import Yesno from "../components/yesno";
 import styles from "../styles/Home.module.css";
 import Categoriesbw from "./categoriesbw";
 import Navbar from "./navbar_main";
+import { getAuth, signInAnonymously, onAuthStateChanged } from "firebase/auth";
+import { useEffect } from "react";
+import { auth } from "./firebase_config";
 
 export default function Home() {
+
+  useEffect(() => {
+    const auth = getAuth();
+    signInAnonymously(auth)
+      .then(() => {
+        onAuthStateChanged(auth, (user) => {
+          if (user) {
+            // User is signed in, see docs for a list of available properties
+            // https://firebase.google.com/docs/reference/js/firebase.User
+            const uid = user.uid;
+            // console.log(uid);
+            console.log(`logged in as ${uid}`);
+            console.log(user);
+            // ...
+          } else {
+            // User is signed out
+            // ...
+          }
+        });
+       
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        // ...
+      });
+    
+  
+   
+  }, [])
+  
+
+
   return (
     <div className="overflow-hidden dark:bg-[#1B1F24]">
       <Head>
