@@ -1,8 +1,8 @@
 import React, { useEffect, useState,useRef } from "react";
 // import Indicator from "react-carousel-indicator";
 // import "react-carousel-indicator/dist/index.css";
-import gsap from "gsap";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
+// import gsap from "gsap";
+// import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import {HiChevronRight,HiChevronLeft } from 'react-icons/hi';
 

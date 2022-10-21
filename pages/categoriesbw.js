@@ -128,7 +128,7 @@ const Categoriesbw = () => {
 
       {/* Below Sm devices  */}
 
-      <div className=" block bg-[#F5F5F7] dark:bg-[#111111] pt-20 sm:hidden">
+      <div className=" block bg-[#F5F5F7] dark:bg-[#111111]  mt-28 pt-20 sm:hidden">
         <h1 className=" mx-6   text-4xl  text-[#8A8B91] dark:text-white text-left font-Productsansbold ">
           {" "}
           Forloop is for,{" "}
