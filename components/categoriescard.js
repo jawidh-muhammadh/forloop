@@ -1,7 +1,8 @@
 import React, { useEffect, useState,useRef } from "react";
 // import Indicator from "react-carousel-indicator";
 // import "react-carousel-indicator/dist/index.css";
-
+// import gsap from "gsap";
+// import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import Image from "next/image";
 import {HiChevronRight,HiChevronLeft } from 'react-icons/hi';
 
@@ -86,7 +87,35 @@ const Categoriescard = () => {
   
 
 
+  
+  // gsap.registerPlugin(ScrollTrigger);
 
+  // useEffect(() => {
+  //   const card = document.querySelectorAll(".card");
+  //   const container = document.querySelectorAll("#container");
+
+  //   gsap.to(card, {
+  //     x: -700,
+  //     duration: 2000,
+
+  //     // ease: "none",
+  //     scrollTrigger: {
+  //       trigger: container,
+
+  //       // invalidateOnRefresh: true,
+
+  //       start: "top center",
+
+  //       pin: card,
+  //       pinSpacing: false,
+
+  //       // scrub: 1,
+  //       // snap: 1 / (card.length - 1),
+  //       // base vertical scrolling on how wide the container is so it feels more natural.
+  //       end: card.offsetWidth,
+  //     },
+  //   });
+  // }, []);
 
   return (
     <>
