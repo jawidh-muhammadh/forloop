@@ -116,14 +116,14 @@ const saveuserinfo = async  () => {
      </div> 
      </div> */}
 
-<div class="flex sm:hidden relative mx-auto mt-8 w-80 rounded-full  bg-[#ECECEC] text-[14px] md:w-80 border p-2 border-[#F2F1EB] ">
+<div className="flex sm:hidden relative mx-auto mt-8 w-80 rounded-full  bg-[#ECECEC] text-[14px] md:w-80 border p-2 border-[#F2F1EB] ">
             <input
             // value={input}
             // onChange={ (e) => setinput(e.target.value)  }
             value={userinfotype} onChange={addinputvalue}
         
               type="text"
-              class="     w-48 h-5  bg-[#ECECEC]  outline-transparent  p-3  z-0  focus:outline-none  font-thin text-sm    "
+              className="     w-48 h-5  bg-[#ECECEC]  outline-transparent  p-3  z-0  focus:outline-none  font-thin text-sm    "
               placeholder="Your Email or Phone number"
             />
             <button disabled={!userinfotype  }   onClick={saveuserinfo}  className="  rounded-full bg-[#080808] absolute py-[10px] -mt-[8px]  -mr-[1px] text-[14px]         text-white right-0    px-5">

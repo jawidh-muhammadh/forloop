@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Benefittwobw = () => {
   return (
@@ -37,11 +38,11 @@ const Benefittwobw = () => {
         </h1> */}
         </div>
         <div className="w-6/12 ">
-          <img
+          <img  alt="lt_t&s" 
             className=" dark:hidden mt-12 mx-auto 2xl:w-[600px] w-[500px]"
             src="/images/Broken_English.png"
           />
-          <img
+          <img  alt="lt_t&s" 
             className="dark:block hidden mt-12 mx-auto 2xl:w-[600px] w-[500px]"
             src="/images/dark_Categories/second_benefit_dark_version.png"
           />
@@ -84,7 +85,7 @@ const Benefittwobw = () => {
         </h1> */}
         </div>
         <div className="absolute top-0 -mt-12 right-2 ">
-          <img className="  w-[100px]" src="/images/benefit_two.png" />
+          <img  alt="lt_t&s"  className="  w-[100px]" src="/images/benefit_two.png" />
         </div>
       </div>
     </>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbarbw = () => {
   const [menuIcon, setMenuIcon] = useState(false);
@@ -12,6 +13,7 @@ const Navbarbw = () => {
           <img
             className="w-20 h-20 cursor-pointer "
             src="/images/logo_black.png"
+            
             alt="forloop_logo"
           />
         </div>
@@ -66,13 +68,13 @@ const Navbarbw = () => {
 
       <div className="flex items-center md:hidden ">
         <div className="flex w-10/12 mt-6 pl-9">
-          <img
+          <img 
             className="block w-10 h-10 dark:hidden"
             src="/images/logo_black.png"
             alt="forloop_logo"
           />
 
-          <img
+          <img 
             className="hidden w-10 h-10 dark:block"
             src="/images/logo_white.png"
             alt="forloop_logo"

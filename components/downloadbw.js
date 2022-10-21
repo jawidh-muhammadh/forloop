@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Downloadbw = () => {
   return (
@@ -14,12 +15,12 @@ const Downloadbw = () => {
       <div className="justify-center hidden mt-6 sm:flex sm:mt-7">
         <div className="px-4 sm:px-4 drop-shadow-xl">
           <a>
-            <img className=" w-44" src="/images/appstore.png" />
+            <img  alt="lt_t&s"  className=" w-44" src="/images/appstore.png" />
           </a>
         </div>
         <div className="px-4 sm:px-4 drop-shadow-xl">
           <a>
-            <img className="w-48 " src="images/googleplay.png" />
+            <img  alt="lt_t&ss"  className="w-48 " src="/images/googleplay.png" />
           </a>
         </div>
       </div>

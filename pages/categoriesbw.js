@@ -1,5 +1,6 @@
 import React from "react";
 import HorizontalScroll from "react-scroll-horizontal";
+import Image from 'next/image'
 
 
 
@@ -38,8 +39,8 @@ const Categoriesbw = () => {
           {/* left view  */}
           <div className="flex flex-col">
             <div className="p-10 border-2 dark:border-[#17181a]   ">
-              <img className=" dark:hidden mx-auto w-44" src="/images/lt_ecommerce.png" />
-              <img className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/e-commerce_dark.png" />
+              <img alt="ecommerce"  className=" dark:hidden mx-auto w-44" src="/images/lt_ecommerce.png" />
+              <img alt="categorydark"   className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/e-commerce_dark.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
                 Ecommerce & Social Media
@@ -53,8 +54,8 @@ const Categoriesbw = () => {
             </div>
 
             <div className="p-10 border-2 dark:border-[#17181a]  ">
-              <img className=" dark:hidden mx-auto w-44" src="/images/lt_t&s.png" />
-              <img className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/teachers_and_students_dark.png" />
+              <img  alt="lt_t&s"  className=" dark:hidden mx-auto w-44" src="/images/lt_t&s.png" />
+              <img  alt="lt_t&s"  className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/teachers_and_students_dark.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
                 Teachers and Students
@@ -66,8 +67,8 @@ const Categoriesbw = () => {
             </div>
 
             <div className="p-10 border-2 dark:border-[#17181a] ">
-              <img className=" dark:hidden mx-auto w-44" src="/images/blog.png" />
-              <img className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/blog_dark.png" />
+              <img  alt="lt_t&s"  className=" dark:hidden mx-auto w-44" src="/images/blog.png" />
+              <img  alt="lt_t&s"  className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/blog_dark.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
                 Blogging & Publishing
@@ -82,8 +83,8 @@ const Categoriesbw = () => {
           {/* right view  */}
           <div className="flex flex-col sm:-mt-20">
             <div className="p-10 border-2  dark:border-[#17181a] ">
-              <img className=" dark:hidden mx-auto w-44" src="/images/lt_m&c.png" />
-              <img className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/media_and_communication_dark.png" />
+              <img  alt="lt_t&s"  className=" dark:hidden mx-auto w-44" src="/images/lt_m&c.png" />
+              <img  alt="lt_t&s"  className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/media_and_communication_dark.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
                 Media & Communication
@@ -96,8 +97,8 @@ const Categoriesbw = () => {
             </div>
 
             <div className="p-10 border-2 dark:border-[#17181a]">
-              <img className=" dark:hidden mx-auto w-44" src="/images/Office.png" />
-              <img className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/office_dark.png" />
+              <img  alt="lt_t&s"  className=" dark:hidden mx-auto w-44" src="/images/Office.png" />
+              <img  alt="lt_t&s"  className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/office_dark.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
                 Office & Employment
@@ -110,8 +111,8 @@ const Categoriesbw = () => {
             </div>
 
             <div className="p-10 border-2  dark:border-[#17181a]">
-              <img className=" dark:hidden mx-auto w-44" src="/images/lt_hobby.png" />
-              <img className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/hobbies_and_intersts_dark.png" />
+              <img  alt="lt_t&s"  className=" dark:hidden mx-auto w-44" src="/images/lt_hobby.png" />
+              <img  alt="lt_t&s"  className=" dark:block hidden mx-auto w-44" src="/images/dark_Categories/hobbies_and_intersts_dark.png" />
               <h1 className="text-lg text-center dark:text-white font-Productsansbold ">
                 {" "}
                 Hobby & Interest

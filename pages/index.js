@@ -31,7 +31,7 @@ import { getAuth, signInAnonymously, onAuthStateChanged } from "firebase/auth";
 import { useEffect } from "react";
 import { auth } from "./firebase_config";
 
-export default function Home() {
+export default function Home() {  
 
   useEffect(() => {
     const auth = getAuth();

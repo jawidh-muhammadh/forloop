@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from 'next/router';
+import Image from "next/image";
 const Herobw = () => {
   const router = useRouter();
   return (
@@ -64,51 +65,57 @@ const Herobw = () => {
                 <img className="w-48 " src="/images/googleplay.png" />
               </a>
             </div>
-          </div> */}
+          </div> */} 
+          {/* onClick={() => router.push('/Subscribe_Us')}  */}
           <div className="mt-8  text-center 2xl:mt-12 md:mt-8 md:mr-2 md:flex sm:mt-5 md:mx-0">
-            <button  onClick={() => router.push('/Subscribe_Us')}   className="bg-[#1B1212] dark:bg-white dark:hover:bg-[#eee8e8]    hover:bg-[#1b1919]  md:hover:transition md:duration-300 md:ease-in-out md:delay-150 md:hover:scale-105 sm:text-lg 2xl:text-2xl        px-12 py-3 sm:px-24  font-Productsansbold rounded-full sm:py-3 2xl:py-5 dark:text-black  text-white font-semibold">
+            <button    className="bg-[#1B1212] dark:bg-white dark:hover:bg-[#eee8e8]    hover:bg-[#1b1919]  md:hover:transition md:duration-300 md:ease-in-out md:delay-150 md:hover:scale-105 sm:text-lg 2xl:text-2xl        px-12 py-3 sm:px-24  font-Productsansbold rounded-full sm:py-3 2xl:py-5 dark:text-black  text-white font-semibold">
               Get Started
             </button>
           </div>
         </div>
         <div className="order-1 ml-1 sm:ml-6 md:order-2 md:mx-auto lg:mx-auto xl:mx-auto ">
-          <img
+          <img 
             className="w-[300px] sm:w-[300px] sm:mt-11 md:mt-24 xl:mt-16 md:w-[350px] lg:w-[480px] 2xl:w-[1000px]"
             src="/images/hero.png"
             alt="forloop_logo"
+           
           />
         </div>
       </div>
 
       <div className="md:flex dark:bg-[#1B1F24]  hidden   mt-[37px] md:mt-[75px] lg:mt-[75px] justify-between">
         <div className="w-4/12 -mt-8 2xl:-mt-0 ">
-          <img
+          <img 
             className=" scale-[1.5] dark:hidden     h-full w-full"
             src="/images/forloop_text_black.png"
             alt="forloop_logo"
+         
           />
 
-          <img
+          <img 
             className=" scale-[1.5] dark:flex hidden      h-full w-full"
             src="/images/forloop-text-white.png"
             alt="forloop_logo"
+           
           />
         </div>
         <div className="z-40 w-8/12 bg-[#1B1212] dark:bg-[#080808] 2xl:mt-16 2xl:h-60 h-36">
           <div className="flex items-center justify-center lg:mx-56 md:mt-12 2xl:mt-24 ">
             <div className="duration-300 ease-in-out delay-150 sm:px-0 hover:transition lg:hover:scale-105">
               <a>
-                <img
+                <img alt="lt_t&s" 
                   className="md:w-32 2xl:w-48 lg:w-40"
-                  src="images/appstore.png"
+                  src="/images/appstore.png"
+                 
                 />
               </a>
             </div>
             <div className="ease-in-out delay-150 sm:px-4 hover:transition hover:scale-105">
               <a>
-                <img
+                <img alt="lt_t&s" 
                   className="md:w-36 lg:w-44 2xl:w-52 "
-                  src="images/googleplay.png"
+                  src="/images/googleplay.png"
+                 
                 />
               </a>
             </div>

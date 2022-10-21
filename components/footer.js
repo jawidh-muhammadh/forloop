@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 
 const Footer = () => {
 
@@ -8,9 +9,9 @@ const Footer = () => {
       {/* #221F14 previous color for footer  */}
       <div className="bg-[#1B1212] pb-6 sm:flex w-full sm:px-12 lg:px-36 lg:pl-36 pt-12 justify-evenly  ">
         <div className="mx-6 2xl:pl-36 sm:w-4/12 lg:mx-0">
-          <img
+          <img  alt="lt_t&s" 
             className="object-contain h-10  lg:h-12 lg:mt-4 md:mt-16 sm:mt-16 "
-            src="images/text_logo.png"
+            src="/images/text_logo.png"
           />
 
           {/* <div className="flex items-center pb-6 sm:pb-0 2xl:mx-36 sm:justify-between mt-7">
@@ -31,13 +32,13 @@ const Footer = () => {
             Get in touch
           </h1>
 
-          <div class="flex relative mt-3 w-64 md:w-80  border p-2 border-[#F2F1EB] bg-white">
+          <div className="flex relative mt-3 w-64 md:w-80  border p-2 border-[#F2F1EB] bg-white">
             <input
             value={input}
             onChange={ (e) => setinput(e.target.value)  }
         
               type="text"
-              class=" italic  text-black w-48 h-5 bg-white   p-3  z-0  focus:outline-none  font-thin text-sm    "
+              className=" italic  text-black w-48 h-5 bg-white   p-3  z-0  focus:outline-none  font-thin text-sm    "
               placeholder="Email Address"
             />
             <button onClick={ () => setinput("") } className=" bg-[#676767] absolute py-[9px] -mt-[9px]  -mr-[1px]        text-white right-0    px-5">
@@ -111,21 +112,21 @@ const Footer = () => {
         <div className="flex">
           <div className="flex ml-3 sm:ml-0">
             <a>
-              <img
+              <img  alt="lt_t&s" 
                 className="object-cover w-6 h-6 mx-3 transition duration-300 ease-in-out delay-150 lg:w-8 lg:h-8 hover:scale-125 sm:w-6 sm:h-6 md:w-6 md:h-6 "
                 src="images/Twitter.png"
               />
             </a>{" "}
             <a >
-              <img
+              <img  alt="lt_t&s" 
                 className="object-cover w-6 h-6 mx-3 transition duration-300 ease-in-out delay-150 lg:w-8 lg:h-8 hover:scale-125 sm:w-6 sm:h-6 md:w-6 md:h-6 "
-                src="images/Instagram.png"
+                src="/images/Instagram.png"
               />
             </a>
             <a >
-              <img
+              <img  alt="lt_t&s" 
                 className="object-cover w-6 h-6 mx-3 transition duration-300 ease-in-out delay-150 lg:w-8 lg:h-8 hover:scale-125 sm:w-6 sm:h-6 md:w-6 md:h-6 "
-                src="images/Facebook.png"
+                src="/images/Facebook.png"
               />
             </a>
           </div>
@@ -135,12 +136,12 @@ const Footer = () => {
           <div className="flex items-center pb-6 ml-7 sm:pb-0 2xl:mx-36 sm:justify-between">
             <div className="px-0 sm:px-0">
               <a>
-                <img className="w-6" src="images/kim.png" />
+                <img  alt="lt_t&s"  className="w-6" src="/images/kim.png" />
               </a>
             </div>
             <div className="px-4 ml-2 sm:px-4">
               <a >
-                <img className="w-8 " src="images/appstore_iconn.png" />
+                <img  alt="lt_t&s"  className="w-8 " src="/images/appstore_iconn.png" />
               </a>
             </div>
           </div>
