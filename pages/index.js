@@ -29,10 +29,10 @@ import Categoriesbw from "./categoriesbw";
 import Navbar from "./navbar_main";
 import { getAuth, signInAnonymously, onAuthStateChanged } from "firebase/auth";
 import { useEffect } from "react";
-import { auth } from "./firebase_config";
+import { auth } from "../components/firebase_config";
+// import { auth } from "../components/firebase_config";
 
-export default function Home() {  
-
+export default function Home() {
   useEffect(() => {
     const auth = getAuth();
     signInAnonymously(auth)
@@ -51,19 +51,13 @@ export default function Home() {
             // ...
           }
         });
-       
       })
       .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
         // ...
       });
-    
-  
-   
-  }, [])
-  
-
+  }, []);
 
   return (
     <div className="overflow-hidden dark:bg-[#1B1F24]">
@@ -86,13 +80,10 @@ export default function Home() {
 
       {/* <Secondbw />  */}
 
-     
-
       <Categoriesbw />
       <div className="overflow-auto ">
         <Categoriescard />
       </div>
-     
 
       <Yesno />
       <Benefitonebw />
