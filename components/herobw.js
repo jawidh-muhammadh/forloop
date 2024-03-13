@@ -68,7 +68,7 @@ const Herobw = () => {
           </div> */} 
           {/* onClick={() => router.push('/Subscribe_Us')}  */}
           <div className="mt-8  text-center 2xl:mt-12 md:mt-8 md:mr-2 md:flex sm:mt-5 md:mx-0">
-            <button    className="bg-[#1B1212] dark:bg-white dark:hover:bg-[#eee8e8]    hover:bg-[#1b1919]  md:hover:transition md:duration-300 md:ease-in-out md:delay-150 md:hover:scale-105 sm:text-lg 2xl:text-2xl        px-12 py-3 sm:px-24  font-Productsansbold rounded-full sm:py-3 2xl:py-5 dark:text-black  text-white font-semibold">
+            <button onClick={() => router.push('/Subscribe_Us')}     className="bg-[#1B1212] dark:bg-white dark:hover:bg-[#eee8e8]    hover:bg-[#1b1919]  md:hover:transition md:duration-300 md:ease-in-out md:delay-150 md:hover:scale-105 sm:text-lg 2xl:text-2xl        px-12 py-3 sm:px-24  font-Productsansbold rounded-full sm:py-3 2xl:py-5 dark:text-black  text-white font-semibold">
               Get Started
             </button>
           </div>
